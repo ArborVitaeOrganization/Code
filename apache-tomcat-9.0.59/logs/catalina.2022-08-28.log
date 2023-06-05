@@ -1,0 +1,91 @@
+28-Aug-2022 18:39:32.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.59
+28-Aug-2022 18:39:32.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 21 2022 21:01:10 UTC
+28-Aug-2022 18:39:32.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.59.0
+28-Aug-2022 18:39:32.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Aug-2022 18:39:32.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.4
+28-Aug-2022 18:39:32.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Aug-2022 18:39:32.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+28-Aug-2022 18:39:32.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17+35-LTS-2724
+28-Aug-2022 18:39:32.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Aug-2022 18:39:32.151 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59
+28-Aug-2022 18:39:32.152 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59
+28-Aug-2022 18:39:32.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Aug-2022 18:39:32.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Aug-2022 18:39:32.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Aug-2022 18:39:32.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Aug-2022 18:39:32.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Aug-2022 18:39:32.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/conf/logging.properties
+28-Aug-2022 18:39:32.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Aug-2022 18:39:32.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Aug-2022 18:39:32.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Aug-2022 18:39:32.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Aug-2022 18:39:32.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Aug-2022 18:39:32.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59
+28-Aug-2022 18:39:32.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59
+28-Aug-2022 18:39:32.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/temp
+28-Aug-2022 18:39:32.241 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/maccheese/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Aug-2022 18:39:32.588 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Aug-2022 18:39:32.655 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [768] milliseconds
+28-Aug-2022 18:39:32.704 WARNING [main] org.apache.catalina.users.MemoryUserDatabase.createUser Null or zero length user name specified. The user will be ignored.
+28-Aug-2022 18:39:32.704 INFO [main] org.apache.tomcat.util.digester.FactoryCreateRule.begin Error creating object: [Null or zero length user name specified. The user will be ignored.]
+28-Aug-2022 18:39:32.707 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Aug-2022 18:39:32.707 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.59]
+28-Aug-2022 18:39:32.727 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/ArborVitae.war]
+28-Aug-2022 18:39:33.485 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Aug-2022 18:39:33.537 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/ArborVitae.war] has finished in [809] ms
+28-Aug-2022 18:39:33.539 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/SumNumbers.war]
+28-Aug-2022 18:39:33.834 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Aug-2022 18:39:33.837 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/SumNumbers.war] has finished in [298] ms
+28-Aug-2022 18:39:33.839 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/test-app.war]
+28-Aug-2022 18:39:33.873 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/test-app.war] has finished in [34] ms
+28-Aug-2022 18:39:33.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/docs]
+28-Aug-2022 18:39:33.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/docs] has finished in [22] ms
+28-Aug-2022 18:39:33.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/manager]
+28-Aug-2022 18:39:33.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/manager] has finished in [42] ms
+28-Aug-2022 18:39:33.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/examples]
+28-Aug-2022 18:39:34.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/examples] has finished in [262] ms
+28-Aug-2022 18:39:34.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/ROOT]
+28-Aug-2022 18:39:34.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/ROOT] has finished in [18] ms
+28-Aug-2022 18:39:34.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/host-manager]
+28-Aug-2022 18:39:34.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/maccheese/Desktop/Documenti/progettoTsw/apache-tomcat-9.0.59/webapps/host-manager] has finished in [22] ms
+28-Aug-2022 18:39:34.246 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Aug-2022 18:39:34.264 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1608] milliseconds
+28-Aug-2022 18:46:16.143 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Aug-2022 18:46:16.145 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Aug-2022 18:46:18.149 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Aug-2022 18:46:18.168 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [SumNumbers] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17/java.lang.Object.wait(Native Method)
+ java.base@17/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:70)
+ java.base@17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17/java.lang.Thread.run(Thread.java:833)
+28-Aug-2022 18:46:18.204 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ArborVitae] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Aug-2022 18:46:18.204 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ArborVitae] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17/java.lang.Object.wait(Native Method)
+ java.base@17/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17/java.lang.Thread.run(Thread.java:833)
+28-Aug-2022 18:46:18.208 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Aug-2022 18:46:23.069 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1427)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1052)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+28-Aug-2022 18:46:23.169 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1427)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1052)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:96)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:69)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+28-Aug-2022 18:46:28.214 WARNING [main] org.apache.tomcat.util.net.Acceptor.stop The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+28-Aug-2022 18:46:28.220 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
