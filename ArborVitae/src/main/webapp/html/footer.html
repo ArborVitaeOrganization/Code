@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Footer</title>
+  <link rel="stylesheet" type="text/css" href="../style/homepage.css">
+  <style>
+   .container9{
+     background-color: #F5F5F5;
+     text-align: center;
+   }
+   
+   h6{
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 400;
+   }
+   
+      
+   .footer-text{
+     border: 3px solid #46dd2c;
+     background-color: #46dd2c;
+     text-align: center;
+   }
+   
+   .info-container {
+     display: grid;
+        grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: 1fr;
+     grid-column-gap: 50px;
+     grid-row-gap: 0px;
+     padding: 1em;
+   }
+    
+   .item1 { grid-area: 1 / 1 / 2 / 2; background: white; border-radius: 20px; outline: 2px solid #46dd2c; font-size: 25px}
+   .item2 { grid-area: 1 / 2 / 2 / 3; background:  white; border-radius: 20px; outline: 2px solid #46dd2c; font-size: 25px}
+   .item3 { grid-area: 1 / 3 / 2 / 4; background: white; border-radius: 20px; outline: 2px solid #46dd2c; font-size: 25px}
+    
+   .item1,.item2,.item3 {padding: 0rem;}
+   
+   ul {
+     display: block;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+   
+   .social-container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: 0fr;
+     grid-column-gap: 5px;
+     grid-row-gap: 0px;
+     padding: 1em;
+   }
+   
+   .footer-div-copyright {
+     border: 15px solid #46dd2c;
+     background-color: #46dd2c;
+     text-align: center;
+   }
+   
+   h8{
+    font-size: 25px;
+    color: white;
+   }
+   
+   h9{
+    font-size: 25px;
+    color: #46dd2c;
+   }
+   
+  </style>
+ </head>
+ 
+ <body>
+  <footer>
+     <!-- Sezione Testo fine pagina //metti uno spazio sotto-->
+       <div  class="footer-text">
+         <p>
+    <h8>Per qualsiasi informazione e soprattutto se vorresti diventare membro del team non esitare a contattarci!<h8>
+         </p>
+       </div>
+     <!-- Grid container -->
+       <div class="container9">
+    <br>   
+       <!-- Contatti -->
+        <div class="info-container">
+      <div class="item1">
+       <h9><br>Indirizzo</h9>
+      <ul>
+       <li>
+        <h6> Universit&agrave; degli Studi di Salerno <br> Via Giovanni Paolo II, 132 </br>84084 Fisciano (SA)</h6>
+       </li>
+      </div>
+      <div class="item2">
+       <h9><br>E-mail</h9>
+      <ul>
+       <li>
+        <h6>c.sorrentino82@studenti.unisa.it</h6>
+       </li>
+      <li>
+       <h6>m.colella20@studenti.unisa.it</h6>
+      </li>
+      <li>
+       <h6>f.monzillo2@studenti.unisa.it</h6>
+      </li>
+      </ul>
+      </div>
+      <div class="item3">
+       <h9><br>Telefono</h9>
+      <ul>
+       <li>
+        <h6>+39 334 709 0726</h6>
+       </li>
+       <li>
+        <h6>+39 392 399 0242</h6>
+       </li>
+       <li>
+        <h6>+39 342 779 7976</h6>
+       </li>
+      </ul>
+      </div>
+     </div>
+  
+      <!-- Sezione Social media -->
+          <div class="social-container">
+           <!-- Facebook -->
+             <a href="#!"><img src="../img/homepage_images/facebooklogo.png" height="30"></a>
+
+           <!-- Twitter -->
+             <a href="#!"><img src="../img/homepage_images/twitter.png" height="30"></a>
+
+           <!-- Google -->
+             <a href="#!" role="button"><img src="../img/homepage_images/google.png" height="30"></a>
+
+           <!-- Instagram -->
+             <a href="#!"><img src="../img/homepage_images/instagram-logo-tumb.png" height="30"></a>
+           </div>
+     </div>
+  
+   <div class="footer-div-copyright">
+    @Arbor_Vitae_2022
+   </div>
+   
+  </footer>
+
+ </body>
+</html>

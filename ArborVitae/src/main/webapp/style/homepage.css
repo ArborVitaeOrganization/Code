@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600')
+	;
+
+:root { --background: rgba(255, 255, 255, .9);
+	/* Background colour, default white*/
+}
+
+*, *::before, *::after {
+	box-sizing: content-box;
+}
+
+/* Body styling */
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+/* Logo s color and font */
+h1 {
+	color: #46dd2c;
+	font-family: fantasy;
+	margin-top: 30px;
+}
+
+.navbar-item {
+	display: inline-flex;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+.img-navbar-item img {
+	max-width: 60px;
+}
+
+.login-signup-buttons {
+	background-color: #46dd2c;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	min-height: 15px;
+	width: 90px;
+	float: right;
+	margin: 0px 10px 0px 0px;
+}
+
+/* Header styling */
+header {
+	background: white !important;
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	top: 0;
+	opacity: 0.9;
+}
+
+/* Hides the checkbox which is needed to get the links when the window is scaled */
+.nav-toggle {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
+
+/*
+	When clicked the checkbox gets focused prova con hover 
+	.nav-toggle:focus ~ .nav-toggle-label {
+	  outline: 10px solid rgba(red, .1);
+	}
+	*/
+
+/* Label Position */
+.nav-toggle-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+/* Toggle label lines for opening the menu */
+.nav-toggle-label span, .nav-toggle-label span::before,
+	.nav-toggle-label span::after {
+	display: block;
+	background: gray;
+	height: 2px;
+	width: 2em;
+	border-radius: 2px;
+	position: relative;
+}
+
+/* To make the other span appear */
+.nav-toggle-label span::before, .nav-toggle-label span::after {
+	content: '';
+	position: absolute;
+}
+
+/* Distanciating the other 2 span */
+.nav-toggle-label span::before {
+	bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+	top: 7px;
+}
+
+/* Navbar position */
+nav {
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+	background: var(--background);
+	width: 100%;
+	transform: scale(1, 0);
+	transform-origin: top;
+	transition: transform 400ms ease-in-out;
+}
+
+/* Navbar elements' settings */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+/* Navbar elements' style*/
+nav a {
+	color: gray;
+	text-decoration: none;
+	font-size: 1.2rem;
+	opacity: 0;
+	/* Faster animated transition for unchecked window */
+	transition: opacity 150ms ease-in-out;
+}
+
+/* Hovering on a navbar element highlights it in green */
+nav a:hover {
+	color: #46dd2c; /* Logo's green */
+}
+
+/* Tilde looks for the nav and if clicked it opens the menu */
+.nav-toggle:checked ~ nav {
+	/* Transformation for scaled window */
+	transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+	/* To make the animated transition smother */
+	opacity: 1;
+	/* Animated transition for checked window */
+	transition: opacity 250ms ease-in-out 250ms;
+}
+
+.cart-elements-count {
+	border-radius: 50%;
+	width: 1.1em;
+	height: 1em;
+	padding: 1px;
+	font-weight: 700 !important;
+	margin-left: -43px;
+	background: black;
+	border: 5px solid black;
+	color: white;
+	text-align: center;
+	font: 0.8em Arial, sans-serif;
+	position: relative;
+	bottom: 18px;
+	right: 18px;
+}
+
+/* Resposive feature */
+@media screen and (min-width: 1600px) {
+	.nav-toggle-label {
+		display: none;
+	}
+
+	/* Giving the header a grid layout */
+	header {
+		display: grid;
+		grid-template-columns: 1fr 2fr minmax(800px, 3fr) 1fr;
+	}
+
+	/* The logo starts at column 2 */
+	.logo {
+		grid-column: 1/3;
+	}
+
+	/* Spacing between the logo and the links */
+	nav {
+		all: unset; 
+		position: relative;
+		text-align: left;
+		transition: none;
+		transform: scale(1, 1);
+		background: none;
+		top: initial;
+		left: initial;
+		grid-column: 3/4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		
+	}
+
+	/* Links are next to each other from left to right (horizontally) */
+	nav ul {
+		display: flex;
+	}
+
+	/* Spreads out the links putting more space between them */
+	nav li {
+		margin-left: 3em;
+		margin-top: 30px;
+	}
+
+	/* Links position */
+	nav a {
+		/* To make them visible */
+		opacity: 1;
+		position: relative;
+	}
+
+	/* Underline for the links */
+	nav a::before {
+		content: '';
+		display: block;
+		height: 3px;
+		background: #46dd2c;
+		position: absolute;
+		top: 1.3em;
+		left: 0;
+		right: 0;
+		/* Default not expanded */
+		transform: scale(0, 1);
+		/* Animated transition for the underline */
+		transition: transform ease-in-out 250ms;
+	}
+
+	/* Expands the line when hovering on the links */
+	nav a:hover::before {
+		transform: scale(1, 1);
+	}
+	
+	li img{
+    position: relative;
+    bottom: 0.5em;
+   }
+}

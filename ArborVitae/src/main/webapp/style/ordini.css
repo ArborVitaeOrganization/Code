@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+
+.gradient-custom {
+/* fallback for old browsers */
+background:  light-gray;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to top left, light-gray, rgba(246, 243, 255, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to top left, #46dd2c, rgba(246, 243, 255, 1))
+}
+
+#certButton{
+	float: right;
+    position: relative;
+    left: .1%;
+    bottom: 0.95em;
+    font-size: 80%;
+    background: linear-gradient(to top left, #46dd2c, rgba(246, 243, 255, 0.1));
+}
+
+.row{
+	clear: both;
+	position: relative;
+	bottom: 1em;
+}
+
+.col-md-2{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.img-wid{
+	height: 100%;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img-fluid{
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    top: 22px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    padding: 2%;
+}
+
+p.info{
+    font-weight: 700;
+    font-size: 95%;
+}
+
+.mb-4{
+	margin-bottom: 0.1rem !important;
+}
+
+p.infoDesc{
+    display: inline;
+    font-family: Times, Times New Roman, serif;
+    font-size: 107%;
+}
+
+a:hover{
+	text-decoration: none;
+}

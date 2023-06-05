@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource name="jdbc/arborvitae" auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" type="javax.sql.DataSource" username="root" password="cosmo123" url="jdbc:mysql://localhost:3306/arborvitae?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;autoReconnect=true&amp;serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+</Context>
+
